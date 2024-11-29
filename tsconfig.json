@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    // Enable modern JavaScript features and DOM support
+    "lib": ["ESNext", "DOM"],
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "allowJs": true,
+
+    // Allow default imports for modules with `export =`
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    // Allow importing assets like JSON or images (if needed)
+    "resolveJsonModule": true,
+
+    // Output settings
+    "outDir": "./dist",
+    "noEmit": false,
+
+    // Best practices
+    "strict": true,
+    "skipLibCheck": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": ["src/index.ts", "src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
